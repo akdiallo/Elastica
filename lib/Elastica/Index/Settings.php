@@ -67,6 +67,7 @@ class Settings
     {
         $requestData = $this->request()->getData();
         $data = reset($requestData);
+
         $settings = $data['settings']['index'];
 
         if (!empty($setting)) {
